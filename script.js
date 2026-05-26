@@ -89,18 +89,3 @@ promptInput.addEventListener(
         }
     }
 )
-
-
-fetch("https://jarvis-backend-lohm.onrender.com/chat", {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-        message: userInput
-    })
-})
-.then(res => res.json())
-.then(data => {
-    console.log(data.reply);
-});
