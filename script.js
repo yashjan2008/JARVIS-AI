@@ -45,7 +45,7 @@ async function sendMessage(){
 
         const response =
         await fetch(
-            "https://jarvis-backend-lohm.onrender.com/chat",
+            "https://jarvis-backend-pd60.onrender.com/chat",
             {
                 method:"POST",
 
